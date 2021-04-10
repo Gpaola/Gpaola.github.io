@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+        <title>Document</title>
+          <link rel="shortcut icon" type="image/x-icon" href="img/00.ico">
+          <link rel="stylesheet" href="css/slide.css">
+          <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="main">
+    <div class="slides">
+      <img src="img/14.jpg" title="colores">
+      <img src="img/12.jpg" title="mundo de colres">
+      <img src="img/22.jpg" title="un arbol">
+      <img src="img/23.jpg" title="una mariposa">
+      <img src="img/24.jpg" title="un unicornio galactico">
+    </div>
+    </div>
+    <script src="JS/jquery.js"></script>
+    <script src="JS/jquery.slides.js"></script>
+
+    <script>
+$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "fade",
+        // [string] Can be either "slide" or "fade".
+      interval: 5000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+    </script>
+  </body>
+</html>

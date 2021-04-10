@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --purple: #cdb4db;
+    --pink-soft: #ffc8dd;
+    --pink: #ffc8dd;
+    --blue-soft: #bde0fe;
+    --blue: #a2d2ff;
+}
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 62.5%;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: var(--purple);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.7rem;
+}
+
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    text-align: left;
+}
+
+.header-text-container p {
+    margin: 0 1rem;
+    font-weight: 500;
+}
+
+.header-icon-container {
+    margin: 0 2rem;
+    width: 10rem;
+    height: 10rem;
+    background-image: url(../img/informatica.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 91rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: var(--blue-soft);
+    border-radius: 2rem;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 25rem;
+    margin: 2rem;
+    height: 20rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--pink);
+    border-radius: 2rem;
+}
+
+@media (min-width: 450px)
+{
+    main div {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (min-width: 700px)
+{
+    main div {
+        width: 40%;
+    }
+}
+
+main div figure {
+    margin: 0 auto;
+    width: 80%;
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.img-1 {
+    background-image: url(../img/cafe.png);
+}
+.img-2 {
+    background-image: url(../img/menuD.png );
+}
+.img-3 {
+    background-image: url(../img/slide.png );
+}
+.img-4 {
+    background-image: url(../img/radiacion.png);
+}
+.img-5 {
+    background-image: url(../img/menuD2.png);
+}
+
+main a {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: .5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 1.6rem;
+    border-radius: 2rem;
+    background-color: var(--blue);
+    color: #fff;
+    cursor: pointer;
+}
+
+main a:hover {
+    box-shadow: 0 1px 6px #858282;
+}
+
+main a:active {
+    background-color: var(--blue-soft);
+}

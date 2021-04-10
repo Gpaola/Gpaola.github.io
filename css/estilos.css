@@ -1,0 +1,271 @@
+body{
+	background-image:url("img/19.gif");/*aqui es color de fondo*/
+	background-attachment: fixed;
+	background-size:50%;
+}
+*{
+	margin:0px;
+	padding:2px;
+	box-sizing:border-box;
+}
+html{
+	font-size: 62.5;
+}
+
+.main-menu {
+	width:100vw;
+	display:inline-block;
+	max-width:100vw;
+	min-width:100vw;
+	max-height:13.5vh;
+	min-height:13.5vh;
+	margin-bottom: 2rem;
+	background: linear-gradient(to left, #e60b0b,#eb1ae0,#3007e6,#09e414,#e4e009,#e60b0b);
+	padding:2.5vh;
+	color:rgb(255, 255, 255);
+	padding-bottom: 4rem;
+}
+
+h1{
+    font-family:"Helve";
+    font-size:60px;
+    font-weight:bold;
+    text-align:center;
+}
+h2{
+    font-family:"Jokerman";
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    color:#f71297;
+}
+h3{
+	font-family:"Matura MT Script Capitals";
+	font-size:30px;
+	text-align:left;
+	text-decoration:underline;
+	color:#9ACD32;
+}
+h4{
+    font-family:"Arial Black";
+	font-size:15px;
+	text-align:center;
+	color:#000000;
+	background-color: #fff; 
+	width:60%;
+	margin:auto;
+}
+h5{
+	font-family:"Jokerman";
+	font-size:30px;
+	text-align:left;
+	color:#8e11e2;
+}
+.h5{
+	font-family:"Jokerman";
+	font-size:30px;
+	text-align:center;
+	color:#8e11e2;
+}
+.Opciones{
+	font-family:times;
+	font-size:25px;
+	text-align:left;
+	color:#000000;
+}
+.formulario{
+	font-family:times;
+	font-size:18px;
+	text-align:left;
+	color:#000000;
+}
+.estructura{
+	font-family:"Jokerman";
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    color:#eb1ae0;
+}
+.parrafo{
+	font-family:"Arial Black";
+    font-size:15px;
+    font-weight:bold;
+    text-align:center;
+	background-color: #fff; 
+	width:60%;
+	margin:auto;
+}
+.parrafo2{
+	font-family:"Arial Black";
+    font-size:14px;
+    font-weight:bold;
+    text-align:left;
+    color:#131213;
+}
+.parrafito{
+	font-family:"Arial black";
+    font-size:15px;
+    font-weight:bold;
+    text-align:left;
+    color:#000;
+}
+.div01{
+	font-family:"Arial Black";
+	font-size:15px;
+	color:#000;
+	background-color: #fff; 
+	width:680px;
+	height:47px;
+	padding:2px;
+	text-align:left;
+}
+.div1{
+	width:680px;
+	height:70px;
+	padding:2px;
+	font-family:"Arial Black";
+	font-size:15px;
+	color:#000;
+	background-color: #fff; 
+	text-align:left;
+}
+.div2{
+    width:680px;
+	height:70px;
+	padding:5px;
+	font-family:"Arial Black";
+	font-size:15px;
+	color:#000;
+	background-color:#fff; 
+	text-align:left;
+}
+.div3{
+	width:680px;
+	background:#f5d5f7;
+	margin: 20px 50px;
+	padding:5px;
+	border: 10px double #000;
+	font-family:"Arial Black";
+}
+.palabra{
+	font-family:"Arial Black";
+    font-size:15px;
+    font-weight:bold;
+    text-align:left;
+}
+.table1{
+	font-family:"Arial Black";
+	border:1px solid rgb(235, 25, 217);
+	border-collapse;
+	min-width: 50vw;
+	margin:auto;
+	background:rgb(180, 87, 235);}
+
+.table1 td{
+	border:1px  solid rgba(14, 240, 191, 0.76);
+	padding:20px;}
+
+.table1 tr:hover {
+background:rgb(241, 81, 201);
+}
+
+.table1 td:hover{
+background:rgb(53, 169, 247);
+color:black;
+}
+
+.table1{
+	position:relative;
+	top:;
+	bottom:;
+	left:;
+	right:;
+}
+.a1{
+	font-family:"Arial Black";
+	font-size:15px;
+	text-decoration:none;
+	padding: 10px 20px ;
+	display:inline-block;
+	margin: 10px 20px 10px 0px;
+	color: #000;
+	background:#e70c43;
+	box-shadow: 0px 5px 0px #2abae6;
+	float:right;
+}
+.a1:hover{
+	background:#1ffc73;
+	box-shadow: 0px 2px 0px #2abae6;
+}
+.a1:active{
+	box-shadow: 0px 0px 0px #2abae6;
+}
+
+.lista1{
+	list-style:none;
+	display:inline-block;
+	margin-bottom:1rem;
+}
+.lista1 li{
+	display:inline-block;
+}
+.lista1 li .menu1{
+	text-decoration:none;
+	padding:10px 20px;
+	display:inline-block;
+	color:#fff;
+}
+.lista1 li .menu1:hover{
+	background:rgb(10, 10, 10);
+	color:000;
+}
+.img1{
+	height:auto;
+	width:30%;
+	margin:auto;
+	display:block;
+	border-radius:100%;
+	border:8px dotted #000;	
+}
+.img2{
+	height:auto;
+	width:30%;
+	margin:auto;
+	border-radius:;
+	border:8px solid #000;	
+}
+.img3{
+	height:auto;
+	width:30%;
+	margin:auto;
+	display:block;
+	border-radius:100%;
+	border:18px double #000;
+}
+.img4{
+		height:auto;
+		width:30%;
+		margin:auto;
+		border-radius:20%;
+		border:8px dashed #000;
+}
+.table2{
+	border:1px solid #000;
+	border-collapse;
+	width:459.8px;
+	margin:auto;
+	display:block;
+	background:rgb(241, 238, 238);
+}
+.table2 td{
+	border:1px solid rgb(57, 9, 231);
+	padding:20px;
+}
+.table2 tr:hover{
+	background:#7558f3;
+	color:#d81616;
+}
+.table2 td:hover{
+	background:rgb(186, 73, 214);
+	color:#1df36f;
+} 
